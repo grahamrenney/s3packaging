@@ -15,7 +15,7 @@
 		<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-s3</artifactId>
-			<version>1.11.967</version>
+			<version>1.11.883</version>
 		</dependency>
 	</dependencies>
 
@@ -23,6 +23,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.3.0</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
